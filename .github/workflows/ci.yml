@@ -12,9 +12,9 @@ jobs:
 
      steps:
        - name: Checkout Code
-       - uses: Run a simple command
+         uses: actions/checkout@v2
   
-       -name:Run a simple command
-       -run: echo "Hello!"
+       - name:Run a simple command
+         run: echo "Hello!"
 
 
