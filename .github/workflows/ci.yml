@@ -10,9 +10,11 @@ jobs:
      runs-on: 
        ubuntu-latest
 
-steps:
-- uses: actions/checkout@v2
-- name: Run a simple command
-  run: echo "Hello from GitHub Actions!"
+     steps:
+       - name: Checkout Code
+       - uses: Run a simple command
+  
+       -name:Run a simple command
+       -run: echo "Hello!"
 
 
